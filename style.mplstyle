@@ -1,0 +1,54 @@
+# Matplotlib style tuned for PowerPoint (16:9) slides
+# Recommended usage in code:
+#   import matplotlib.pyplot as plt
+#   plt.style.use('style.mplstyle')
+
+# Figure sizing and export
+figure.figsize       : 12.8, 7.2   # 1920x1080 at 150 dpi (16:9)
+figure.dpi           : 200         # on-screen clarity
+savefig.dpi          : 300         # crisper exported images
+savefig.bbox         : tight
+savefig.pad_inches   : 0.05
+savefig.transparent  : True        # allows overlay on slide backgrounds
+figure.autolayout    : True
+figure.facecolor     : white
+axes.facecolor       : white
+
+# Fonts
+font.family          : sans-serif
+font.sans-serif      : Aptos, Arial, Helvetica, DejaVu Sans
+font.size            : 20          # base font size (legend/ticks)
+mathtext.fontset     : dejavusans
+
+# Axes and titles
+axes.titlesize       : 32
+axes.titleweight     : bold
+axes.labelsize       : 24
+axes.labelweight     : regular
+axes.linewidth       : 1.
+axes.grid            : False
+axes.spines.top      : False
+axes.spines.right    : False
+
+# Grid appearance
+grid.linestyle       : --
+grid.linewidth       : 0.8
+grid.alpha           : 0.4
+
+# Lines and markers
+lines.linewidth      : 1.5
+lines.markersize     : 10
+
+# Ticks
+xtick.labelsize      : 20
+ytick.labelsize      : 20
+xtick.major.size     : 6
+ytick.major.size     : 6
+
+# Legend
+legend.fontsize      : 14
+legend.frameon       : False
+legend.loc           : best
+
+# Misc
+errorbar.capsize     : 4
