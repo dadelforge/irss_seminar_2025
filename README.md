@@ -25,6 +25,7 @@ Supplement to:
           normality, then segmentation
     - Extracts and summarizes “mortality events” (duration, magnitude, excess)
       via `utils/`
+- Presentation slides: `251112_irss_seminar.pdf`
 - Data: `data/df_mortality_TOTAL.csv` (pre‑prepared extract for the demo)
 - Utilities: lightweight helpers in `utils/` for segmentation, plotting, and
   data labels
@@ -46,13 +47,4 @@ Supplement to:
 Eurostat — "Deaths by week, sex and NUTS 3 region" (
 DOI: https://doi.org/10.2908/DEMO_R_MWK3_TS). City labels are mapped via
 `utils/data.py`.
-
-## Repository layout (brief)
-
-- `irss_seminar.ipynb` — main analysis notebook
-- `data/` — input CSV used by the notebook
-- `utils/` — small helper modules (`segmentation.py`, `plotting.py`, `func.py`,
-  `data.py`)
-- `style.mplstyle` — Matplotlib style
-- `pyproject.toml` — project metadata
 
